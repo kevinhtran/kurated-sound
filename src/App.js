@@ -1,10 +1,13 @@
+import React from 'react'
 import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <div>This is Kurated Sound... in the mix.</div>
-    </div>
+    <Router>
+      <Navbar />
+    </Router>
   );
 }
 
