@@ -7,6 +7,7 @@ import Dropdown from './Dropdown';
 const Navbar = () => {
   // Initial value will be set to false, and true when the bars on the hamburger are clicked
   const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   // I want to set the state to be the opposite of what it is. Essentially a toggle for the hamburger menu when clicked it'll turn into the 'x' symbol.
   const handleClick = () => { setClick(!click) };
@@ -34,6 +35,13 @@ const Navbar = () => {
         <li className='nav-item'>
           <Link to='/services' className='nav-links' onClick={closeMobibleMenu}>
             Services <i className='fas fa-caret-down' />
+          </Link>
+          {/* if the dropdown is true then showcase <Dropdown /> component */}
+          {dropdown && <Dropdown />}
+        </li>
+        <li className='nav-item'>
+          <Link to='/contact-us' className='nav-links' onClick={closeMobibleMenu}>
+            Contact Us
           </Link>
         </li>
       </ul>
