@@ -10,6 +10,7 @@ const Navbar = () => {
 
   // I want to set the state to be the opposite of what it is. Essentially a toggle for the hamburger menu when clicked it'll turn into the 'x' symbol.
   const handleClick = () => { setClick(!click) };
+  const closeMobibleMenu = () => {setClick(false)}
 
   return (
   <>
@@ -23,6 +24,19 @@ const Navbar = () => {
         {/* ternary: if click is true, fas fa-times if not, fas fa-bars */}
         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
+      {/* logic will be similar to the menu icon */}
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className='nav-item'>
+          <Link to='/' className='nav-links' onClick={closeMobibleMenu}>
+            Home
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/services' className='nav-links' onClick={closeMobibleMenu}>
+            Services <i className='fas fa-caret-down' />
+          </Link>
+        </li>
+      </ul>
     </nav>
   </>
   );
