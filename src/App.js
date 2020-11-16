@@ -1,15 +1,16 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Layout from './components/Layout';
 import Home from './Home';
 import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 import NoMatch from './NoMatch';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
+    <Layout>
       <Router>
         <Switch>
           <Route exact path='/' component={Home} />
@@ -19,6 +20,7 @@ function App() {
           <Route component={NoMatch} />
         </Switch>
       </Router>
+    </Layout>
     </>
   );
 }
