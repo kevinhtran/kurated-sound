@@ -1,17 +1,21 @@
-import React from 'react'
+import React, { Component } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import NaviBar from './components/Navibar';
-import { BrowserRouter as Router} from 'react-router-dom';
 import HeroJumbotron from './components/HeroJumbotron';
-import Carousel  from './components/Slideshow';
+import Layout from './components/Layout';
 
 function App() {
   return (
     <>
       <Router>
-        <NaviBar />
-        <HeroJumbotron />
-        <Carousel />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route exact path='/services' component={Services} />
+          <Route exact path='/about' component={About} />
+          <Route exact path='/contact' component={Contact} />
+          <Route component={NoMatch} />
+        </Switch>
       </Router>
     </>
   );
