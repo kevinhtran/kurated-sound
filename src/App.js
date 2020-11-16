@@ -6,21 +6,23 @@ import Services from './Services';
 import Contact from './Contact';
 import NoMatch from './NoMatch';
 import Layout from './components/Layout';
+import NaviBar from './components/Navibar';
 
 function App() {
   return (
     <>
-    <Layout>
-      <Router>
-        <Switch>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/services' component={Services} />
-          <Route exact path='/contact' component={Contact} />
-          <Route component={NoMatch} />
-        </Switch>
-      </Router>
-    </Layout>
+    <NaviBar />
+      <Layout>
+        <Router>
+          <Switch>
+            <Route exact path='/' component={Home} />
+            <Route exact path='/about' component={About} />
+            <Route exact path='/services' component={Services} />
+            <Route exact path='/contact' component={Contact} />
+            <Route component={NoMatch} />
+          </Switch>
+        </Router>
+      </Layout>
     </>
   );
 }
