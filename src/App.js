@@ -7,11 +7,13 @@ import Contact from './Contact';
 import NoMatch from './NoMatch';
 import Layout from './components/Layout';
 import NaviBar from './components/Navibar';
+import Jumbo from './components/Jumbo';
 
 function App() {
   return (
     <>
     <NaviBar />
+    <Jumbo />
       <Layout>
         <Router>
           <Switch>
