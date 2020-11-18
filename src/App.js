@@ -8,6 +8,7 @@ import NoMatch from './NoMatch';
 import Layout from './components/Layout';
 import NaviBar from './components/Navibar';
 import Jumbo from './components/Jumbo';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           </Switch>
         </Router>
       </Layout>
+      <Footer />
     </>
   );
 }

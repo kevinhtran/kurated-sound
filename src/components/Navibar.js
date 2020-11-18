@@ -17,7 +17,7 @@ const Navibar = () => {
         </Nav>
         <Nav>
           <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
-          <Nav.Link eventKey={2} href="/sign-up">Sign Up</Nav.Link>
+          <Nav.Link href="/sign-up">Sign Up</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
