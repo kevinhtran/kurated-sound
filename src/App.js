@@ -10,7 +10,7 @@ import NaviBar from './components/Navibar';
 import Jumbo from './components/Jumbo';
 import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
     <>
     <NaviBar />
