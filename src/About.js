@@ -3,8 +3,8 @@ import Card from 'react-bootstrap/Card';
 
 const About = () => {
   const cardInfo = [
-    {image: '', title: 'Kevin Tran', text: 'Some text.'},
-    {image: '', title: 'Khalil Tran', text: 'Some Text.'}
+    {image: 'https://vignette.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/revision/latest?cb=20160125182202', title: 'Kevin Tran', text: 'Some text.'},
+    {image: 'https://vignette.wikia.nocookie.net/naruto/images/1/13/Sasuke_Part_2.png/revision/latest/scale-to-width-down/340?cb=20170716092003', title: 'Khalil Tran', text: 'Some Text.'}
   ]
 
   const renderCard = (card, index) => {
