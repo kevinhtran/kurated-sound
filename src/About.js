@@ -1,12 +1,29 @@
 import React from 'react'
-import CardItems from 'components/CardItems.js'
+import Card from 'react-bootstrap/Card';
 
-const About = () => (
-  <div>
-    <h1>About us:</h1>
-    <p>We are brothers with a passion for sound. Enthusiasts for music equipment and staging.</p>
-    <CardItems />
-  </div>
-)
+const About = () => {
+  const cardInfo = [
+    {image: '', title: 'Kevin Tran', text: 'Some text.'},
+    {image: '', title: 'Khalil Tran', text: 'Some Text.'}
+  ]
+
+  const renderCard = (card, index) => {
+    return (
+      <Card style={{ width: '18rem' }} key={index}>
+        <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
+        <Card.Body>
+          <Card.Title>{card.title}</Card.Title>
+          <Card.Text>{card.text}</Card.Text>
+        </Card.Body>
+      </Card>
+    );
+  };
+
+  return (
+    <div>
+      {cardInfo.map(renderCard)}
+    </div>
+  );
+};
 
 export default About;
