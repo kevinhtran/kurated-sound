@@ -35,7 +35,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='row'>
-          <p className='col-sm'>
+          <p className='col-sm' style={{alignSelf: "center"}}>
             &copy;{new Date().getFullYear()} Kurated Sound Inc | All Rights Reserved | Terms Of Services | Privacy
           </p>
         </div>
