@@ -1,4 +1,5 @@
 import React from 'react'
+import './components/Box.css';
 import Card from 'react-bootstrap/Card';
 
 const About = () => {
@@ -9,18 +10,18 @@ const About = () => {
 
   const renderCard = (card, index) => {
     return (
-      <Card style={{ width: '18rem' }} key={index}>
-        <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
-        <Card.Body>
-          <Card.Title>{card.title}</Card.Title>
-          <Card.Text>{card.text}</Card.Text>
-        </Card.Body>
-      </Card>
+        <Card style={{ width: '18rem' }} key={index} className='box'>
+          <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
+          <Card.Body>
+            <Card.Title>{card.title}</Card.Title>
+            <Card.Text>{card.text}</Card.Text>
+          </Card.Body>
+        </Card>
     );
   };
 
   return (
-    <div>
+    <div className='grid'>
       {cardInfo.map(renderCard)}
     </div>
   );
