@@ -4,12 +4,21 @@ import Card from 'react-bootstrap/Card';
 
 const About = () => {
   const cardInfo = [
-    {image: 'https://vignette.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/revision/latest?cb=20160125182202', title: 'Kevin Tran', text: 'Some text.'},
-    {image: 'https://vignette.wikia.nocookie.net/naruto/images/1/13/Sasuke_Part_2.png/revision/latest/scale-to-width-down/340?cb=20170716092003', title: 'Khalil Tran', text: 'Some Text.'}
+    {
+      image: 'https://vignette.wikia.nocookie.net/naruto/images/b/bb/Itachi.png/revision/latest?cb=20160125182202', 
+      title: 'Kevin Tran', 
+      text: `Uchiha Itachi (うちはイタチ)`
+    },
+    {
+      image: 'https://vignette.wikia.nocookie.net/naruto/images/1/13/Sasuke_Part_2.png/revision/latest/scale-to-width-down/340?cb=20170716092003', 
+      title: 'Khalil Tran', 
+      text: 'Uchiha Sasuke (うちはサスケ)'
+    } 
   ]
 
   const renderCard = (card, index) => {
     return (
+      <div>
         <Card style={{ width: '18rem' }} key={index} className='box'>
           <Card.Img variant="top" src="holder.js/100px180" src={card.image}/>
           <Card.Body>
@@ -17,6 +26,7 @@ const About = () => {
             <Card.Text>{card.text}</Card.Text>
           </Card.Body>
         </Card>
+      </div>
     );
   };
 

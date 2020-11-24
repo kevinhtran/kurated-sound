@@ -10,6 +10,12 @@
   box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3);
 }
 
+.box-1 {
+  display: flex;
+  display: grid;
+  justify-content: center;
+}
+
 .grid {
   min-height: 100%;
   display: flex;
@@ -20,4 +26,14 @@
 
 .grid > div {
   flex-basis: calc(20% - 20px);
+}
+
+.jumbo {
+  height: 450px;
+  background-image: url('https://images.pexels.com/photos/111117/pexels-photo-111117.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260');
+  background-size: cover;
+}
+
+.jumbo-color-1 {
+  color: #ffffff;
 }
