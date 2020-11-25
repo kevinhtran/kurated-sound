@@ -19,9 +19,9 @@ const Footer = () => {
           <div className='col'>
             <h4>Socials</h4>
             <ul className='list-unstyled'>
-              <li>IG</li>
-              <li>FACEBOOK</li>
-              <li>YOUTUBE</li>
+              <li><a href='https://www.instagram.com/kuratedsound/'>Instagram</a></li>
+              <li><a href='https://www.facebook.com/profile.php?id=100009945706613'>Facebook</a></li>
+              <li><a href='https://www.youtube.com/kuratedsound'>Youtube</a></li>
             </ul>
           </div>
           {/* Col 3 */}

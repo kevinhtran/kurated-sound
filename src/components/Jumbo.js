@@ -12,9 +12,9 @@ const Jumbo = () => {
         <div>
           <h1 className='jumbo-color-1 box-1'>We are Kurated Sound</h1>
           <h4 className='jumbo-color-1 box-1'>Bringing to you extraordinary sound equipment to all events and occasions within the Bay Area.</h4>
-          <div>
+          {/* <div>
             <Button variant="primary" className='box-1'>More details</Button>
-          </div>
+          </div> */}
         </div>
       </div>
     </Jumbotron>
