@@ -1,4 +1,9 @@
 import React from 'react'
+// import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+// import Home from '../Home';
+// import About from '../About';
+// import Services from '../Services';
+// import Contact from '../Contact';
 import './Footer.css';
 
 const Footer = () => {
@@ -20,11 +25,11 @@ const Footer = () => {
           <div className='col'>
             <h4>Explore</h4>
             <ul className='list-unstyled'>
-              <li>Home</li>
-              <li>About</li>
+              <li><a href='../'>Home</a></li>
+              <li><a href='../About'>About</a></li>
+              <li><a href='../Services'>Services</a></li>
+              <li><a href='../Contact'>Contact Us</a></li>
               <li>Services</li>
-              <li>Contact Us</li>
-              <li>Sign Up</li>
             </ul>
           </div>
           {/* Col 3 */}
