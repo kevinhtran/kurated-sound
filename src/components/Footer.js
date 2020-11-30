@@ -29,7 +29,7 @@ const Footer = () => {
               <li><a href='../About'>About</a></li>
               <li><a href='../Services'>Services</a></li>
               <li><a href='../Contact'>Contact Us</a></li>
-              <li>Services</li>
+              <li>Sign Up</li>
             </ul>
           </div>
           {/* Col 3 */}

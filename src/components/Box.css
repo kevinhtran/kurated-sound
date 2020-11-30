@@ -37,3 +37,9 @@
 .jumbo-color-1 {
   color: #ffffff;
 }
+
+.button-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
