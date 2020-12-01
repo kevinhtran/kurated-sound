@@ -4,9 +4,9 @@ import EmailForm from './components/EmailForm';
 
 const SignUp = () => {
   return (
-    <>
+    <div>
       <EmailForm />
-    </>
+    </div>
   )
 };
 
