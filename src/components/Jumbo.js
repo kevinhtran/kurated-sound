@@ -2,8 +2,6 @@ import React from 'react';
 import './Box.css';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Image from 'react-bootstrap/Image'
 
 const Jumbo = () => {
   return (
