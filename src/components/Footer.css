@@ -1,12 +1,21 @@
+* {
+  font-family: 'Lato', sans-serif;
+}
+
 .main-footer {
-  color: white;
-  background-color: #343a40!important;
+  color: #fff;
+  background-color: #000000!important;
   padding-top: 3em;
-  position: relative;
-  bottom: 0;
   width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
 }
 
 i {
-  margin-right: 28px;
+  margin-right: 26px;
+}
+
+.border-1{
+  border: 1px solid #fff;
 }

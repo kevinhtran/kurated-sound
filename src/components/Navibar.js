@@ -14,9 +14,10 @@ const Navibar = () => {
          <Nav.Item><Nav.Link href="/">Home</Nav.Link></Nav.Item>
          <Nav.Item><Nav.Link href="/about">About</Nav.Link></Nav.Item>
          <Nav.Item><Nav.Link href="/services">Services</Nav.Link></Nav.Item>
+         <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
         </Nav>
         <Nav>
-          <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
+          <Nav.Link href="/login">Login</Nav.Link>
           <Nav.Link href="/signup">Sign Up</Nav.Link>
         </Nav>
       </Navbar.Collapse>

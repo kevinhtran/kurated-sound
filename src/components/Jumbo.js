@@ -11,7 +11,7 @@ const Jumbo = () => {
           <h1 className='jumbo-color-1 box-1'>We are Kurated Sound</h1>
           <h4 className='jumbo-color-1 box-1'>Bringing to you extraordinary sound equipment to all events and occasions within the Bay Area.</h4>
           <div className='text-center'>
-            <Button className='button-1'>Book us now</Button>
+            <Button className='button-1'><li><a href='../Services'>Book Us Now</a></li></Button>
           </div>
         </div>
       </div>
