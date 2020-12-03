@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Navibar.css';
 import { Link } from 'react-router-dom';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
@@ -6,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navibar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand='lg'>
       <Navbar.Brand href="#home">K_S</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">

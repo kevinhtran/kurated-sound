@@ -3,19 +3,33 @@
 }
 
 .main-footer {
-  color: #fff;
-  background-color: #000000!important;
+  color: #000000;
+  background-color: #f8f8f8!important;
   padding-top: 3em;
   width: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
 }
 
 i {
-  margin-right: 26px;
+  margin-right: 20px;
 }
 
 .border-1{
-  border: 1px solid #fff;
+  border: 1px solid #000000;
+}
+
+.border-2 {
+  border: 1px solid #000000;
+  padding-bottom: 0px;
+}
+
+my-container {
+
+}
+
+my-row {
+
+
+}
+my-col {
+
 }
