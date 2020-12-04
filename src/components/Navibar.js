@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Navibar = () => {
   return (
-    <Navbar collapseOnSelect expand='lg'>
+    <Navbar collapseOnSelect expand='lg' className='navbar-light bg-light'>
       <Navbar.Brand href="#home">K_S</Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
@@ -17,7 +17,7 @@ const Navibar = () => {
          <Nav.Item><Nav.Link href="/services">Services</Nav.Link></Nav.Item>
          <Nav.Item><Nav.Link href="/contact">Contact Us</Nav.Link></Nav.Item>
         </Nav>
-        <Nav>
+        <Nav className='ml-auto'>
           <Nav.Link href="/login">Login</Nav.Link>
           <Nav.Link href="/signup">Sign Up</Nav.Link>
         </Nav>

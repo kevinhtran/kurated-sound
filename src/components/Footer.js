@@ -11,12 +11,12 @@ const Footer = () => {
         <div className='row'>
           {/* Col 1 */}
           {/* Company Logo/Name and brand slogan */}
-          <div className='col-md-2'>
+          <div className='col-md-2 border-1'>
             <h5 className='text-muted'>Kurated Sound</h5>
           </div>
           {/* Col 2 */}
           {/* Explore/Redirect Column */}
-          <div className='col-md-2'>
+          <div className='col-md-2 border-1'>
             <h5 className='text-muted'>Explore</h5>
             <ul className='list-unstyled'>
               <li><a href='../' className='text-muted'>Home</a></li>
@@ -28,12 +28,12 @@ const Footer = () => {
           </div>
           {/* Col 3 */}
           {/* Contact Column */}
-          <div className='col-md-3'>
+          <div className='col-md-3 border-1'>
             <h5 className='text-muted'>Contact Us</h5>
             <p className='text-muted'>kuratedsound@gmail.com</p>
           </div>
           {/* Col 4 */}
-          <div className='col-md-5 justify-content-center d-flex'>
+          <div className='col-md-5 justify-content-center d-flex border-1'>
             {/* Social Media Accounts */}
             <div className='col'>
               <ul className='list-unstyled'>
