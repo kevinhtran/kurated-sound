@@ -1,6 +1,6 @@
-/* * {
+* {
   font-family: 'Lato', sans-serif;
-} */
+}
 
 .main-footer {
   color: #ffffff;
@@ -8,27 +8,18 @@
   padding-top: 3em;
 }
 
-i {
-  margin-right: 20px;
+custom-link, custom-link:hover{
+  text-decoration: none;
+  color: #ffffff;
 }
 
+i {
+  color: #ffffff;
+  font-size: 24px;
+  padding-bottom: 7px;
+}
+
+/* for debugging :) */
 .border-1{
   border: 1px solid #ffffff;
-}
-
-.border-2 {
-  border: 1px solid #000000;
-  padding-bottom: 0px;
-}
-
-my-container {
-
-}
-
-my-row {
-
-
-}
-my-col {
-
 }
