@@ -17,11 +17,11 @@ const Footer = () => {
               <div className='col text-center'>
                 <h5 className='lead text-center'>Kurated Sound</h5>
                 <ul className='list-unstyled flex-lg-row justify-content-center'>
-                  <li className='custom-link'><a href='https://www.instagram.com/kuratedsound/'><i class="fab fa-instagram fa-fw"></i></a></li>
-                  <li className='custom-link'><a href='https://www.facebook.com/profile.php?id=100009945706613'><i class="fab fa-facebook-f fa-fw"></i></a></li>
-                  <li className='custom-link'><a href='https://www.yelp.com/kuratedsound'><i class="fab fa-yelp fa-fw"></i></a></li>
-                  <li className='custom-link'><a href='https://www.youtube.com/kuratedsound'><i class="fab fa-youtube fa-fw"></i></a></li>
-                  <li className='custom-link'><a href='https://www.twitch.tv/kuratedsound'><i class="fab fa-twitch fa-fw"></i></a></li>
+                  <li><a href='https://www.instagram.com/kuratedsound/' className='custom-link'><i class="fab fa-instagram fa-fw"></i></a></li>
+                  <li><a href='https://www.facebook.com/profile.php?id=100009945706613' className='custom-link'><i class="fab fa-facebook-f fa-fw"></i></a></li>
+                  <li><a href='https://www.yelp.com/kuratedsound' className='custom-link'><i class="fab fa-yelp fa-fw"></i></a></li>
+                  <li><a href='https://www.youtube.com/kuratedsound' className='custom-link'><i class="fab fa-youtube fa-fw"></i></a></li>
+                  <li><a href='https://www.twitch.tv/kuratedsound' className='custom-link'><i class="fab fa-twitch fa-fw"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -30,11 +30,11 @@ const Footer = () => {
             <div className='col-lg-3 col-md-4 text-center'>
               <h5 className='lead'>Explore</h5>
               <ul className='list-unstyled flex-lg-row justify-content-center'>
-                <li className='custom-link'><a href='../'>Home</a></li>
-                <li className='custom-link'><a href='../About'>About</a></li>
-                <li className='custom-link'><a href='../Services'>Services</a></li>
-                <li className='custom-link'><a href='../Contact'>Contact Us</a></li>
-                <li className='custom-link'><a href='../SignUp'>Sign Up</a></li>
+                <li><a href='../' className='custom-link'>Home</a></li>
+                <li><a href='../About' className='custom-link'>About</a></li>
+                <li><a href='../Services' className='custom-link'>Services</a></li>
+                <li><a href='../Contact' className='custom-link'>Contact Us</a></li>
+                <li><a href='../SignUp' className='custom-link'>Sign Up</a></li>
               </ul>
             </div>
             {/* Col 3 */}

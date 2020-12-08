@@ -8,9 +8,13 @@
   padding-top: 3em;
 }
 
-custom-link, custom-link:hover{
-  text-decoration: none;
-  color: #ffffff;
+a.custom-link {
+  color: #ffffff !important;
+}
+
+a.custom-link:hover {
+  color: #000000 !important;
+  text-decoration: none !important;
 }
 
 i {
