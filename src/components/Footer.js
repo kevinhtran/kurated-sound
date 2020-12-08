@@ -9,7 +9,7 @@ const Footer = () => {
     <div className='main-footer'>
       <div className='parent-container d-flex'>
         {/* 1st child container with logo, explore, fun stuff col */}
-        <div className='container'>
+        <div className='container mx-0 pl-4 pr-0'>
           <div className='row'>
             {/* Col 1 */}
             {/* Company Logo/Name and brand slogan & social media accounts */}
@@ -51,7 +51,7 @@ const Footer = () => {
           </div>
         </div>
         {/* 2nd container with subscribe email form */}
-        <div className='container'>
+        <div className='container mx-0 pr-5 pl-0'>
           <div className='row'>
             <div className='col-md-12 justify-content-center'>
               <div className='col'>
@@ -79,12 +79,12 @@ const Footer = () => {
       Not apart of parent container */}
       <div className='container'>
         <div className='row'>
-          <p className='col text-center small lead'>
+          <p className='mx-auto small mb-0'>
             Designed by Kevin Tran
           </p>
         </div>
         <div className='row'>
-          <p className='col text-center small lead'>
+          <p className='mx-auto small'>
             &copy;{new Date().getFullYear()} Kurated Sound Inc., All Rights Reserved.
           </p>
         </div>
