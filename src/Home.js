@@ -65,11 +65,22 @@ const Home = () => (
     {/* This container will have 4 equal sized pictures that are clickable with text inside saying what it will direct you to: reservations, our tech, about us, contact us */}
     <Container className='features-parent-container'>
       <Container className='features-container'>
-        <Row>
-          <Row><p>We use modern-day tech and equipment that is suited to your needs and expectations. Our equipments primarily consists of PA speakers, subwoofers, both wired and wireless microphones, mixers to help amplify and control the sound, and a DJ controller.</p></Row>
-          <Row><p>There are particular brands that we use and they are considered some of the best in the current market today:</p></Row>
-          <Col></Col>
-        </Row>
+        <Card>
+          <Card.Header>Quote</Card.Header>
+          <Card.Body>
+            <blockquote className="blockquote mb-0">
+              <p>
+                {' '}
+                  We use modern-day tech and equipment that is suited to your needs and expectations. Our equipments primarily consists of PA speakers, subwoofers, both wired and wireless microphones, mixers to help amplify and control the sound, and a DJ controller.
+                {' '}
+              </p>
+              <footer className="blockquote-footer">
+                Kevin Tran, <cite title="Source Title">Co-Founder</cite>
+              </footer>
+            </blockquote>
+          </Card.Body>
+        </Card>
+        <Row><p>There are particular brands that we use and they are considered some of the best in the current market today:</p></Row>
       </Container>
       <Container>
         <Row> 
@@ -95,9 +106,9 @@ const Home = () => (
       {/* This container will be about how we run on multiple platforms such as youtube and spotify for you to listen to music and get in touch with our genre and curations. */}
     </Container>
     <Container className='music-container'>
-      <col>
+      <Col>
         I like music. Do you like music? Here are our youtube and spotify channels. :)
-      </col>
+      </Col>
     </Container>
   </Container>
 );
