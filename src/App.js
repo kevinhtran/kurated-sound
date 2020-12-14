@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './Home';
-import About from './About';
-import Services from './Services';
-import Contact from './Contact';
-import SignUp from './SignUp';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
+import SignUp from './components/Session_Forms/SignUp';
 import Layout from './components/Layout';
-import NaviBar from './components/Navibar';
-import Jumbo from './components/Jumbo';
-import Footer from './components/Footer';
+import NaviBar from './components/Navibar/Navibar';
+import Jumbo from './components/Home/Jumbo';
+import Footer from './components/Footer/Footer';
 import EmailForm from './components/EmailForm';
 
 const App = () => {
