@@ -1,11 +1,11 @@
 import React from 'react';
-import EmailForm from './EmailForm';
+import SessionForm from './SessionForm';
 
 
 const SignUp = () => {
   return (
     <div>
-      <EmailForm />
+      <SessionForm />
     </div>
   )
 };

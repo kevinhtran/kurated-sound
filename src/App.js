@@ -1,15 +1,7 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Services from './components/Services/Services';
-import Contact from './components/Contact/Contact';
-import SignUp from './components/Session_Forms/SignUp';
-import Layout from './components/Layout';
-import NaviBar from './components/Navibar/Navibar';
-import Jumbo from './components/Home/Jumbo';
-import Footer from './components/Footer/Footer';
-import EmailForm from './components/EmailForm';
+import { Home, About, Services, Contact, SignUp, SessionForm, NaviBar, Jumbo, Footer} from './components/'
+import Layout from './Layout'
 
 const App = () => {
   return (
