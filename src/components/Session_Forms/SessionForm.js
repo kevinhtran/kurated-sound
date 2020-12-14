@@ -2,7 +2,7 @@ import React from 'react';
 import Form  from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-const EmailForm = () => {
+const SessionForm = () => {
   return (
     <>
       <Form>
@@ -29,4 +29,4 @@ const EmailForm = () => {
   )
 };
 
-export default EmailForm;
+export default SessionForm;
