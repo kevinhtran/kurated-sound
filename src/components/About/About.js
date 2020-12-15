@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Home/Box.css';
 import Card from 'react-bootstrap/Card';
-
+//
 const About = () => {
   const cardInfo = [
     {
